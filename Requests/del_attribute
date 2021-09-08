@@ -1,0 +1,29 @@
+Este request nos servirá para eliminar alguna caracteristica del producto
+
+Metodo: POST
+URL: http://gammaintegration.shipedge.com/API/Rest/v2/Inventory/del_attribute
+
+Parametros.
+Key (es siempre la misma) = 7c1277b835a0fc4873b90174afd1e132
+Warehouse = bx1
+account_id = 35
+product_id = id del producto
+attribute_name = atributo a cambiar
+
+----------------REQUEST----------------------
+
+{
+  "account_id": 35,
+  "key": "7c1277b835a0fc4873b90174afd1e132",
+  "warehouse": "bx1",
+  "product_id": "3",
+  "attribute_name": "cost"
+}
+
+--------------RESPUESTA------------------
+
+{
+  "status": "success",
+  "result": "product attribute was deleted"
+}
+
