@@ -1,0 +1,29 @@
+Este request nos servirá para obtener toda la cantidad de ordenes existentes, se puede filtrar por fecha.
+
+Metodo: POST
+URL: http://gammaintegration.shipedge.com/API/Rest/v2/Inventory/get_total_products
+
+Parametros.
+Key (es siempre la misma) = 7c1277b835a0fc4873b90174afd1e132
+Warehouse = bx1
+account_id = 35
+
+----------------REQUEST---------------------- 
+
+{
+  "account_id": 35,
+  "key": "7c1277b835a0fc4873b90174afd1e132",
+  "warehouse": "bx1",
+  "from_date": "2019-01-01 18:34:18",
+  "to_date": "2021-08-30 18:34:18"
+}
+
+--------------RESPUESTA------------------
+
+{
+    "status": "successful",
+    "products": {
+        "total": "7"
+    }
+}
+
