@@ -1,0 +1,40 @@
+Este request nos servirá para crear producto con todas sus caracteristicas
+
+Metodo: POST
+URL: http://gammaintegration.shipedge.com/API/Rest/v2/Inventory/create_products
+
+Parametros.
+Key = 7c1277b835a0fc4873b90174afd1e132
+Warehouse = bx1
+account_id = 35
+
+----------------REQUEST----------------------
+
+{
+  "account_id": 35,
+  "key": "7c1277b835a0fc4873b90174afd1e132",
+  "warehouse": "bx1",
+  "products": [
+    {
+      "sku": "skuPruebxBx",
+      "description": "Prueba Bx",
+      "width": 1,
+      "length": 2,
+      "height": 3,
+      "weight": 4,
+      "cost": 10,
+      "retail": 11
+    },
+    {
+      "sku": "skuPruebaBx2",
+      "description": "Prueba Bx2",
+      "width": 5,
+      "length": 4,
+      "height": 3,
+      "weight": 2,
+      "cost": 10,
+      "retail": 11
+    }
+  ]
+}
+
