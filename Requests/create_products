@@ -38,3 +38,20 @@ account_id = 35
   ]
 }
 
+--------------RESPUESTA------------------
+
+{
+  "status": "successful",
+  "result": [
+    {
+      "product_id": 1,
+      "sku": "sku0001",
+      "message": "successful"
+    },
+    {
+     "product_id": 2,
+     "sku": "sku0002",
+     "message": "successful"
+    }
+  ]
+}
