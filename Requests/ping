@@ -1,0 +1,24 @@
+Este request nos servirá para verificar 
+
+Metodo: POST
+URL: http://gammaintegration.shipedge.com/API/Rest/v2/Inventory/ping
+
+Parametros.
+Key (es siempre la misma) = 7c1277b835a0fc4873b90174afd1e132
+Warehouse = bx1
+account_id = 35
+
+----------------REQUEST----------------------
+
+{
+    "account_id": 35,
+    "key": "7c1277b835a0fc4873b90174afd1e132",
+    "warehouse": "bx1"
+}
+
+--------------RESPUESTA------------------
+
+{
+    "status": "successful",
+    "result": "pong!"
+}
